@@ -75,7 +75,8 @@ if __name__ == "__main__":
     image_template_path4 = "4.png"
     image_template_path5 = "5.png"
     image_template_path6 = "6.png"
-    n = 3
+    n = input("请输入次数：") 
+    n = int(n)
     for i in range(n):
         # 开始自动点击
         click_on_image3(image_template_path1,sub_path3)
